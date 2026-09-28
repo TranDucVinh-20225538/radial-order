@@ -1,0 +1,14 @@
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+id_rsa
+id_ed25519
+credentials*
+.DS_Store
