@@ -1,0 +1,36 @@
+loaded dino_derm (2000, 768)
+loaded dino_path (2000, 768)
+loaded clip_derm (2000, 512)
+loaded clip_path (2000, 512)
+loaded dino_iwild (2000, 768)
+replay dino_derm
+replay dino_path
+replay clip_derm
+replay clip_path
+replay dino_iwild
+orth dino_derm residual 3.73e-14
+orth dino_path residual 2.33e-14
+orth clip_derm residual 1.94e-15
+orth clip_path residual 7.88e-15
+orth dino_iwild residual 2.75e-14
+null dino_derm
+null dino_path
+null clip_derm
+null clip_path
+null dino_iwild
+phi dino_derm
+phi dino_path
+phi clip_derm
+phi clip_path
+phi dino_iwild
+path dino_derm crossings 1
+path dino_path crossings 1
+path clip_derm crossings 1
+path clip_path crossings 1
+path dino_iwild crossings 0
+extra dino_derm
+extra dino_path
+extra clip_derm
+extra clip_path
+extra dino_iwild
+wrote /data2/cmdir/home/toandq/radial-order/aistats-checks

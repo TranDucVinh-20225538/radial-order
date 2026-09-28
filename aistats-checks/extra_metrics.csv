@@ -1,0 +1,11 @@
+cell,metric,gamma,delong_se,ci_contains_half,abs_auroc_minus_gamma,flag
+dino_derm,diagonal,0.625221,0.008876951957007738,false,0,
+dino_derm,sphere_ledoit_wolf,0.0177695,0.001480441479166474,false,0,
+dino_path,diagonal,0.5704092500000001,0.009089615128872785,false,0,
+dino_path,sphere_ledoit_wolf,0.22639575,0.007203424457776798,false,0,
+clip_derm,diagonal,0.487326,0.009171311776613634,true,0,
+clip_derm,sphere_ledoit_wolf,0.004663,0.0006222441441166352,false,0,
+clip_path,diagonal,0.65904825,0.008743477368597981,false,0,
+clip_path,sphere_ledoit_wolf,0.09497024999999999,0.004666791251516412,false,0,
+dino_iwild,diagonal,0.4317017499999999,0.009062248629454421,false,0,
+dino_iwild,sphere_ledoit_wolf,0.13461525,0.005512997577414832,false,0,
