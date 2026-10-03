@@ -1,0 +1,7 @@
+PASS equivalence
+PASS quantile_not_necessary
+PASS certificate_fires
+PASS control
+PASS rotation_invisibility
+PASS constant_phi
+PASS variance_counterexample

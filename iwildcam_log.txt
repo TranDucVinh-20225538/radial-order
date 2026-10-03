@@ -1,0 +1,38 @@
+split_dict {'train': 0, 'val': 1, 'test': 2, 'id_val': 3, 'id_test': 4}
+cap train 129809 -> 2000 test 42791 -> 2000
+Using cache found in /data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Could not import `tifffile`, TIFFImageDataDecoder will be disabled
+encoder on NVIDIA A100-SXM4-80GB
+iWildCam smoke embed 64+64
+embedded 8/64
+embedded 8/64
+smoke gap 0
+embed iWildCam n_id=2000 n_new=2000
+embedded 8/2000
+embedded 208/2000
+embedded 408/2000
+embedded 608/2000
+embedded 808/2000
+embedded 1008/2000
+embedded 1208/2000
+embedded 1408/2000
+embedded 1608/2000
+embedded 1808/2000
+embedded 8/2000
+embedded 208/2000
+embedded 408/2000
+embedded 608/2000
+embedded 808/2000
+embedded 1008/2000
+embedded 1208/2000
+embedded 1408/2000
+embedded 1608/2000
+embedded 1808/2000
+saved iWildCam matrices before Ledoit-Wolf
+iWildCam LW 0.142716 euclid 0.431416 straddles

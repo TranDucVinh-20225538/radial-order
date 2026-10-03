@@ -1,0 +1,12 @@
+Using cache found in /data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Could not import `tifffile`, TIFFImageDataDecoder will be disabled
+wilds root /data2/cmdir/home/toandq/DST-Skin/data/raw/wilds
+/data2/cmdir/home/toandq/radial-order/.venv/lib/python3.11/site-packages/wilds/datasets/camelyon17_dataset.py:74: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:203.)
+  self._y_array = torch.LongTensor(self._metadata_df['tumor'].values)
+split_dict {'train': 0, 'id_val': 1, 'test': 2, 'val': 3}

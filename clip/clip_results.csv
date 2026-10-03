@@ -1,0 +1,5 @@
+modality,metric,n_id,n_new,d,gamma,gaussian_gap,same_sign,lambda_min,lambda_max,n_lt_1,n_gt_1,sign_condition
+dermatology,ledoit_wolf,2000,2000,512,0.005041499999999994,0,yes,0.00419290642727199,194.4534766828987,289,223,straddles
+dermatology,euclidean,2000,2000,512,0.50140575,0,yes,,,,,
+pathology,ledoit_wolf,2000,2000,512,0.11083775,0,yes,0.0008470487977023751,77.45427689032951,309,203,straddles
+pathology,euclidean,2000,2000,512,0.7568189999999999,0,yes,,,,,

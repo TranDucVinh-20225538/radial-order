@@ -1,0 +1,21 @@
+dermatology saved list 2000 2000
+pathology saved list 2000 2000
+Using cache found in /data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/data2/cmdir/home/toandq/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Could not import `tifffile`, TIFFImageDataDecoder will be disabled
+encoder on NVIDIA A100-SXM4-80GB
+smoke embed 64+64
+smoke gap 0
+embed dermatology n_id=2000 n_new=2000
+saved dermatology matrices before Ledoit-Wolf
+loaded saved dermatology matrices (2000, 768) (2000, 768)
+dermatology straddles lambda [2.52367e-12, 104.647] auroc 0.0154797 scored 0.0155
+embed pathology n_id=2000 n_new=2000
+saved pathology matrices before Ledoit-Wolf
+loaded saved pathology matrices (2000, 768) (2000, 768)
+pathology straddles lambda [5.50689e-12, 65.65] auroc 0.223475 scored 0.2235

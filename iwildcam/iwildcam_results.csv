@@ -1,0 +1,3 @@
+metric,n_id,n_new,d,gamma,gaussian_gap,same_sign,lambda_min,lambda_max,n_lt_1,n_gt_1,sign_condition
+ledoit_wolf,2000,2000,768,0.14271625,0,yes,8.393847062969293e-13,126.4677239321734,478,290,straddles
+euclidean,2000,2000,768,0.4314165,0,yes,,,,,

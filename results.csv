@@ -1,0 +1,5 @@
+modality,split,n_id,n_new,premap_mw,certificate,epsilon,auroc_mahalanobis,auroc_gaussian,gap,auroc_euclidean,pass
+dermatology,smoke,64,64,0.0,no,none,0.0,0.0,0.0,0.632568359375,yes
+dermatology,isic2019_padufes,2000,2000,0.01547975,no,none,0.015479749999999992,0.015479749999999992,0.0,0.6610860000000001,yes
+dermatology,control,2000,2000,0.0,no,none,0.0,0.0,0.0,0.0,yes
+pathology,camelyon17_train_test,2000,2000,0.22347525,no,none,0.22347525000000001,0.22347525000000001,0.0,0.5828307500000001,yes

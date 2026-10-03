@@ -1,3 +1,4 @@
+data/
 *.npy
 *.npz
 *.pt
