@@ -1,4 +1,16 @@
 sanity gate PASS
 PART3 only mode
-PART3 STOP: 'type' object is not subscriptable
+/data2/cmdir/home/toandq/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:128: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+clip_iwild embedded 0/2000
+clip_iwild embedded 640/2000
+clip_iwild embedded 1280/2000
+clip_iwild embedded 1920/2000
+clip_iwild embedded 0/2000
+clip_iwild embedded 640/2000
+clip_iwild embedded 1280/2000
+clip_iwild embedded 1920/2000
+sha256 clip_iwild_id a5f287d10799e2a47047443f5f604573f07a63de23b5c16c73638fbac7debe6a
+sha256 clip_iwild_new 49a063027338cccf9a5c61a75c4e744b1d4ec9cb0993b9c2540725dfb01ee1a6
+part3 done
 wrote /data2/cmdir/home/toandq/radial-order/aistats-checks/round3

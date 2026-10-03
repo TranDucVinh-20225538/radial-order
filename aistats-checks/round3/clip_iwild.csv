@@ -1,0 +1,5 @@
+analysis,metric,seed,gamma,delong_se,null_gamma,identity_gap,phi,gamma_surrogate,n_lt_1,n_eq_1,n_gt_1
+full_fit,ledoit_wolf,,0.14909275000000002,0.005854352215862246,,0.0,,,,,
+full_fit,euclidean,,0.42290075,0.009244600686095651,,0.0,,,,,
+disjoint_seed0,ledoit_wolf,0,0.29304650000000004,0.010147590502262997,0.485496,0.0,0.03846989411074049,0.0004505,339,0,173
+disjoint_seed0,euclidean,0,0.42725149999999995,0.012331557171552343,0.48488,0.0,,,,,

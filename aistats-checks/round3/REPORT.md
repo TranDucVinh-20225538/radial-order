@@ -1,6 +1,6 @@
 # Round 3 report
 
-Runtime: 30.9 s
+Runtime: 1719.3 s
 
 ## Part 1 — extra disjoint metrics
 
@@ -29,7 +29,11 @@ Outputs: `surrogate_bands.csv`, `surrogate_hybrid.csv`.
 
 ## Part 3 — CLIP ViT-B/16 iWildCam
 
-STOP: part 3 did not complete.
+Recovered subsample: `iwildcam/indices_id.npy` and `indices_new.npy` (sha256 f64842c1406801822490f98b1891fc36fe207db4bf2135ca227227f8bf670e27, 1f37584d022ce50931b2b055790c51792c5c37c9a3ab482e2e2bb4fedf1a3fd6); train vs official test per `IWILDCAM.md` (cap: sort, RandomState(0).shuffle, first 2000).
+New embeddings: `export_embeddings/clip_iwild_id.npy` sha256=a5f287d10799e2a47047443f5f604573f07a63de23b5c16c73638fbac7debe6a; `clip_iwild_new.npy` sha256=49a063027338cccf9a5c61a75c4e744b1d4ec9cb0993b9c2540725dfb01ee1a6.
+Outputs: `clip_iwild.csv`, `clip_iwild_path.csv`, `clip_iwild_perm.csv`.
 
 ## New .npy sha256
 
+- export_embeddings/clip_iwild_id.npy: `a5f287d10799e2a47047443f5f604573f07a63de23b5c16c73638fbac7debe6a`
+- export_embeddings/clip_iwild_new.npy: `49a063027338cccf9a5c61a75c4e744b1d4ec9cb0993b9c2540725dfb01ee1a6`

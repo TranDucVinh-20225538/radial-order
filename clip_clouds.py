@@ -4,6 +4,8 @@ Matrices are written before T, before Ledoit-Wolf, and before any AUROC.
 A later restart loads those files and does not delete them.
 """
 
+from __future__ import annotations
+
 import csv
 import hashlib
 import inspect
@@ -147,10 +149,28 @@ def job_lists(modality: str) -> tuple[list[str], list[str], str, Path, Path]:
 
 
 def load_clip(device: torch.device):
+    repo = ROOT.resolve()
+    clip_data = (ROOT / "clip").resolve()
+    filtered = []
+    for entry in sys.path:
+        try:
+            resolved = Path(entry).resolve()
+        except (OSError, RuntimeError):
+            filtered.append(entry)
+            continue
+        if resolved in (repo, clip_data):
+            continue
+        filtered.append(entry)
+    saved_path = sys.path[:]
+    sys.path = filtered
     try:
+        if "clip" in sys.modules and not hasattr(sys.modules["clip"], "load"):
+            del sys.modules["clip"]
         import clip
     except Exception as exc:
+        sys.path = saved_path
         stop(f"clip import failed: {type(exc).__name__}: {exc}")
+    sys.path = saved_path
     try:
         model, preprocess = clip.load("ViT-B/16", device=device)
     except Exception as exc:
